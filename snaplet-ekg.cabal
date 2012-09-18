@@ -7,7 +7,6 @@ Library
   hs-source-dirs: src
   build-depends:
     base,
-    data-lens,
     ekg,
     mtl,
     snap,
