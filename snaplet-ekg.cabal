@@ -1,0 +1,16 @@
+name: snaplet-ekg
+build-type: Simple
+version: 0.1
+cabal-version: >= 1.2
+
+Library
+  hs-source-dirs: src
+  build-depends:
+    base,
+    data-lens,
+    ekg,
+    mtl,
+    snap,
+    transformers
+  Exposed-modules: Snap.Snaplet.Ekg
+  ghc-options: -O2 -Wall -Werror
